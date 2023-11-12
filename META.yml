@@ -24,6 +24,7 @@ no_index:
 requires:
   Mo: 0
   Mo::utils: 0.05
+  Readonly: 0
   perl: 5.8.0
 resources:
   bugtracker: https://github.com/michal-josef-spacek/Data-Coordinate/issues
