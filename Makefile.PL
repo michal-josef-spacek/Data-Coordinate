@@ -24,6 +24,8 @@ requires 'Readonly' => 0;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/Data-Coordinate/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Data-Coordinate';
 resources 'repository' => 'git://github.com/michal-josef-spacek/Data-Coordinate';
+test_requires 'English' => 0;
+test_requires 'Error::Pure::Utils' => 0;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;
