@@ -19,5 +19,6 @@ META.yml
 README
 t/Data-Coordinate/01-use.t
 t/Data-Coordinate/02-version.t
+t/Data-Coordinate/03-new.t
 xt/Data-Coordinate/01-pod_coverage.t
 xt/Data-Coordinate/02-pod.t
