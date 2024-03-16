@@ -1,24 +1,24 @@
 use strict;
 use warnings;
 
-use Data::Coordinate;
+use Data::Geo::Coordinate;
 use English;
 use Error::Pure::Utils qw(clean);
 use Test::More 'tests' => 6;
 use Test::NoWarnings;
 
 # Test.
-my $obj = Data::Coordinate->new(
+my $obj = Data::Geo::Coordinate->new(
 	'latitude' => 49.8304878,
 	'latitude_pos' => 'north',
 	'longitude' => 14.5929047,
 	'longitude_pos' => 'east',
 );
-isa_ok($obj, 'Data::Coordinate');
+isa_ok($obj, 'Data::Geo::Coordinate');
 
 # Test.
 eval {
-	Data::Coordinate->new(
+	Data::Geo::Coordinate->new(
 		'latitude_pos' => 'north',
 		'longitude' => 14.5929047,
 		'longitude_pos' => 'east',
@@ -30,7 +30,7 @@ clean();
 
 # Test.
 eval {
-	Data::Coordinate->new(
+	Data::Geo::Coordinate->new(
 		'latitude' => 49.8304878,
 		'latitude_pos' => 'bad',
 		'longitude' => 14.5929047,
@@ -43,7 +43,7 @@ clean();
 
 # Test.
 eval {
-	Data::Coordinate->new(
+	Data::Geo::Coordinate->new(
 		'latitude' => 49.8304878,
 		'latitude_pos' => 'north',
 		'longitude_pos' => 'east',
@@ -55,7 +55,7 @@ clean();
 
 # Test.
 eval {
-	Data::Coordinate->new(
+	Data::Geo::Coordinate->new(
 		'latitude' => 49.8304878,
 		'latitude_pos' => 'north',
 		'longitude' => 14.5929047,

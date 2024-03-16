@@ -1,4 +1,4 @@
-package Data::Coordinate;
+package Data::Geo::Coordinate;
 
 use strict;
 use warnings;

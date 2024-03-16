@@ -17,7 +17,7 @@ license: bsd
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: Data-Coordinate
+name: Data-Geo-Coordinate
 no_index:
   directory:
     - inc
@@ -29,8 +29,8 @@ requires:
   Readonly: 0
   perl: 5.8.0
 resources:
-  bugtracker: https://github.com/michal-josef-spacek/Data-Coordinate/issues
-  homepage: https://github.com/michal-josef-spacek/Data-Coordinate
+  bugtracker: https://github.com/michal-josef-spacek/Data-Geo-Coordinate/issues
+  homepage: https://github.com/michal-josef-spacek/Data-Geo-Coordinate
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/michal-josef-spacek/Data-Coordinate
+  repository: git://github.com/michal-josef-spacek/Data-Geo-Coordinate
 version: '0.01'

@@ -7,8 +7,8 @@ use Test::NoWarnings;
 BEGIN {
 
 	# Test.
-	use_ok('Data::Coordinate');
+	use_ok('Data::Geo::Coordinate');
 }
 
 # Test.
-require_ok('Data::Coordinate');
+require_ok('Data::Geo::Coordinate');

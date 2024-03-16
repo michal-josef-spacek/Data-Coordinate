@@ -5,4 +5,4 @@ use Test::NoWarnings;
 use Test::Pod::Coverage 'tests' => 2;
 
 # Test.
-pod_coverage_ok('Data::Coordinate', 'Data::Coordinate is covered.');
+pod_coverage_ok('Data::Geo::Coordinate', 'Data::Geo::Coordinate is covered.');
